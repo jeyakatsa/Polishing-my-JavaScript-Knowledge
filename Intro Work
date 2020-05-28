@@ -1,0 +1,150 @@
+//Setting and Swapping
+var myNumber = 42;
+var myName = 'Jeremy Akatsa';
+var temp = myNumber;
+myNumber = myName;
+myName = temp;
+
+//Print -52 to 1066
+for (var num = -52; num < 1066; num++)
+ {
+    console.log(num);
+}
+
+//Don't Worry, Be Happy
+function beCheerful() {
+    console.log("good morning!");
+}
+for (var i = 0; i < 98; i++) {
+    beCheerful();
+}
+
+//Multiples of Three - but Not All
+for (var num = -300; num < 0; num + 3) {
+    if(num % 3 == 0) {
+        if (num === -3 || num === -6) {
+            console.log(num);
+    }
+  }
+}
+
+//Printing Integers with While
+var num = 2000
+while (num <= 5280) {
+    console.log(num);
+    num = num + 1;
+}
+
+//You Say It's Your Birthday
+var jeremysBirthMonth = 6;
+var jeremysBirthDay = 21;
+function birthdayCheck(day, month, testA, testB) {
+    if((day === testA && month == testB) || (day === testB && month === testA)) {
+        console.log("How did you know?");
+    } else {
+        console.log("Just another day...");
+    }
+}
+
+//Leap Year
+function isLeapYear(year) {
+    if(year % 100 === 0) {
+        if(year % 400 === 0) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    else if(year % 4 === 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(isLeapYear(2020));
+
+//Print and Count
+var arr = [];
+for (var val = 512; val<= 4096; val += 5)
+{
+    arr.push(val);
+}
+console.log(arr);
+console.log(arr.length);
+
+//Multiples of Six
+var num = 0
+while (num < 60000) {
+    console.log(num);
+    num = num + 6;
+}
+
+//Counting, the Dojo Way
+for(var i = 1; i <= 100; i++){
+    if(i % 10 === 0) {
+        console.log("Coding Dojo");
+    }
+    else if(i % 5 === 0) {
+        console.log("Coding");
+    }
+    else {
+        console.log(i);
+    }
+}
+
+//What Do You Know?
+function statement(incoming) {
+        console.log(incoming);
+}
+
+//Whoa, That Sucker's Huge...
+var sums = 0;
+for(var i=-300000; i<=300000; i+=2) {
+    sums += i;
+}
+console.log(sums)
+
+//Countdown by Fours
+var fours = 2016;
+while(fours > 0) {
+    console.log(fours);
+    fours -= 4;
+}
+
+//Flexible Countdown
+function flexibleCountdown(lowNum, highNum, mult) {
+    for(var i=highNum; i>lowNum; i-=1) {
+        if(i%mult === 0) {
+            console.log(i);
+        }
+    }
+}
+flexibleCountdown(2, 9, 3);
+
+//The Final Countdown
+function finalCountdown(param1, param2, param3, param4) {
+    var num = param2;
+    while(num <= param3) {
+        if(num % param1 === 0) {
+            if(num !== param4) {
+                console.log(num);
+            }
+        }
+        num++;
+    }
+}
+finalCountdown(3,5,17,9);
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
