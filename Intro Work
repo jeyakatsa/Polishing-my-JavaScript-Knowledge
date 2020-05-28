@@ -3,7 +3,7 @@ var myNumber = 42;
 var myName = 'Jeremy Akatsa';
 var temp = myNumber;
 myNumber = myName;
-myName = temp;
+myName = temp;  
 
 //Print -52 to 1066
 for (var num = -52; num < 1066; num++)
