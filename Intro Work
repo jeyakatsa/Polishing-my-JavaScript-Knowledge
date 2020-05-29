@@ -2,7 +2,7 @@
 var myNumber = 42;
 var myName = 'Jeremy Akatsa';
 var temp = myNumber;
-myNumber = myName;
+myNumber = myName;  
 myName = temp;  
 
 //Print -52 to 1066
