@@ -1,7 +1,7 @@
 //Setting and Swapping
 var myNumber = 42;
 var myName = 'Jeremy Akatsa';
-var temp = myNumber;   
+var temp = myNumber; 
 myNumber = myName;      
 myName = temp;  
 
