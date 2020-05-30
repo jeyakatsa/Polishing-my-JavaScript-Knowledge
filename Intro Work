@@ -37,7 +37,7 @@ while (num <= 5280) {
 
 //You Say It's Your Birthday
 var jeremysBirthMonth = 6;
-var jeremysBirthDay = 21;
+var jeremysBirthDay = 21;  
 function birthdayCheck(day, month, testA, testB) {
     if((day === testA && month == testB) || (day === testB && month === testA)) {
         console.log("How did you know?");
